@@ -1,0 +1,15 @@
+.naija-lingo {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 20px;
+}
+
+.naija-lingo h1 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.naija-lingo p {
+  line-height: 1.6;
+}
