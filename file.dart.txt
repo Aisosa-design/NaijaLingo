@@ -1,0 +1,25 @@
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatelessWidget {
+  final List<String> languages = ["Yoruba", "Igbo", "Hausa", "Tiv"];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("NaijaLingo")),
+      body: GridView.builder(
+        itemCount: languages.length,
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+        itemBuilder: (context, index) {
+          return Card(
+            elevation: 4,
+            child: InkWell(
+              onTap: () => Navigator.pushNamed(context, '/lessons', arguments: languages[index]),
+              child: Center(child: Text(languages[index], style: TextStyle(fontSize: 20))),
+            ),
+          );
+        },
+      ),
+    );
+  }
+}

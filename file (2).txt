@@ -1,0 +1,36 @@
+naijalingo/
+│
+├── mobile/                     # Flutter app
+│   ├── lib/
+│   │   ├── main.dart
+│   │   ├── screens/
+│   │   │   ├── home_screen.dart
+│   │   │   ├── lesson_screen.dart
+│   │   │   └── profile_screen.dart
+│   │   ├── widgets/
+│   │   │   ├── language_card.dart
+│   │   │   └── xp_progress_bar.dart
+│   │   ├── models/
+│   │   │   └── lesson.dart
+│   │   ├── services/
+│   │   │   └── api_service.dart
+│   │   └── utils/constants.dart
+│   ├── pubspec.yaml
+│   └── README.md
+│
+├── server/                     # Backend API
+│   ├── src/
+│   │   ├── index.js
+│   │   ├── routes/
+│   │   │   ├── auth.js
+│   │   │   ├── lessons.js
+│   │   │   └── progress.js
+│   │   ├── middleware/
+│   │   │   └── authMiddleware.js
+│   │   └── prisma/
+│   │       └── schema.prisma
+│   ├── package.json
+│   ├── .env.example
+│   └── README.md
+│
+└── README.md                   # repo overview

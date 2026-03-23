@@ -1,0 +1,7 @@
+NaijaLingo is a gamified mobile app for learning indigenous Nigerian languages.
+The MVP launches with Yoruba, Igbo, Hausa, and Edo.
+Learners build reading, writing, speaking, and cultural understanding through simple bite-sized lessons.
+The experience is designed to be fun, with XP, streaks, and rewards that keep users coming back.
+NaijaLingo is also inclusive by design, with captions, visual-first prompts, large text, and text alternatives to speaking tasks.
+And it is ready for classroom use, with a teacher dashboard for assignments and progress tracking.
+NaijaLingo helps preserve language, strengthen identity, and make local language learning modern, joyful, and accessible.

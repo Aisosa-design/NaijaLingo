@@ -1,0 +1,17 @@
+/lib
+ ├── main.dart              # entry point
+ ├── screens/
+ │    ├── home_screen.dart
+ │    ├── lesson_screen.dart
+ │    ├── quiz_screen.dart
+ │    └── profile_screen.dart
+ ├── widgets/
+ │    ├── language_card.dart
+ │    ├── xp_progress_bar.dart
+ │    └── audio_button.dart
+ ├── services/
+ │    └── api_service.dart
+ ├── models/
+ │    └── lesson.dart
+ └── utils/
+      └── constants.dart
